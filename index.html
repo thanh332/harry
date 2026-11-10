@@ -1,0 +1,362 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogwarts – Eine magische Welt</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=DM+Sans:wght@400;500;600;700&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="sparkle-layer" id="sparkle-layer"></div>
+
+<header class="topbar">
+    <a href="#home" class="brand">
+        <span class="brand-icon">⚡</span>
+        <span>THE WIZARDING WORLD<small>EINE MAGISCHE REISE</small></span>
+    </a>
+    <nav>
+        <a href="#filme">Filme</a>
+        <a href="#hogwarts">Hogwarts</a>
+        <a href="#haeuser">Häuser</a>
+        <a href="#magie">Magie</a>
+        <a href="#quiz">Quiz</a>
+    </nav>
+    <div class="header-owl">🦉</div>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero" id="home">
+    <div class="hero-stars">✦　·　✧　　✦　·　✧</div>
+    <div class="floating-letter">✉️</div>
+    <div class="floating-broom">🧹</div>
+
+    <div class="hero-content">
+        <p class="eyebrow">HOGWARTS SCHULE FÜR HEXEREI UND ZAUBEREI</p>
+        <h1>Eine Welt<br>voller <span>Magie</span></h1>
+        <div class="hero-divider">✦ ━━━━━━━━━ ✦</div>
+        <p class="hero-text">
+            Hinter jeder Tür wartet ein Geheimnis.
+            Hinter jeder Seite ein neues Abenteuer.
+            Willkommen in der Welt von Harry Potter!
+        </p>
+        <a href="#filme" class="gold-button">DIE MAGISCHE REISE BEGINNEN ✨</a>
+        <div class="hero-note">Bitte nicht vergessen: Zauberstab mitbringen!</div>
+    </div>
+
+    <div class="hero-castle">🏰</div>
+    <div class="hero-bottom">
+        <span>✧ ZAUBERSTÄBE</span>
+        <span>✧ FREUNDSCHAFT</span>
+        <span>✧ ABENTEUER</span>
+        <span>✧ GEHEIMNISSE</span>
+    </div>
+</section>
+
+<!-- WILLKOMMEN -->
+<section class="welcome section">
+    <div class="welcome-symbol">✧</div>
+    <p class="eyebrow">EIN KLEINER BLICK HINTER DEN VORHANG</p>
+    <h2>Die Magie beginnt hier</h2>
+    <p class="welcome-text">
+        Eine verborgene Zauberwelt, ein geheimnisvolles Schloss,
+        unglaubliche Kreaturen und Freundschaften, die alles überstehen.
+        Entdecke die Geschichten, Orte und Geheimnisse des Harry-Potter-Universums.
+    </p>
+    <div class="welcome-facts">
+        <div><strong>8</strong><span>Kinofilme</span></div>
+        <div><strong>4</strong><span>Hogwarts-Häuser</span></div>
+        <div><strong>∞</strong><span>Magische Momente</span></div>
+    </div>
+</section>
+
+<!-- FILME -->
+<section class="films-section section" id="filme">
+    <div class="section-heading">
+        <p class="eyebrow">DIE GROSSE GESCHICHTE</p>
+        <h2>Die acht Filme</h2>
+        <p>Jeder Film öffnet ein neues Kapitel der Zauberwelt.</p>
+    </div>
+
+    <div class="film-intro">
+        <span>🎬</span>
+        <p>Klicke auf einen Film, um mehr über seine Geschichte, wichtige Orte und magische Besonderheiten zu erfahren.</p>
+    </div>
+
+    <div class="film-grid">
+
+        <article class="film-card" data-film="1">
+            <div class="film-number">FILM 01</div>
+            <div class="film-art art-one"><span>⚡</span><small>DER ANFANG</small></div>
+            <div class="film-info">
+                <h3>Der Stein der Weisen</h3>
+                <p>Ein Brief verändert alles. Harry entdeckt, dass er ein Zauberer ist.</p>
+                <button class="film-button" data-open-film="1">Film entdecken ↗</button>
+            </div>
+        </article>
+
+        <article class="film-card" data-film="2">
+            <div class="film-number">FILM 02</div>
+            <div class="film-art art-two"><span>🐍</span><small>DAS GEHEIMNIS</small></div>
+            <div class="film-info">
+                <h3>Die Kammer des Schreckens</h3>
+                <p>Ein altes Geheimnis erwacht tief unter Hogwarts.</p>
+                <button class="film-button" data-open-film="2">Film entdecken ↗</button>
+            </div>
+        </article>
+
+        <article class="film-card" data-film="3">
+            <div class="film-number">FILM 03</div>
+            <div class="film-art art-three"><span>🐺</span><small>VERGANGENHEIT</small></div>
+            <div class="film-info">
+                <h3>Der Gefangene von Askaban</h3>
+                <p>Ein geheimnisvoller Gefangener und eine überraschende Wahrheit.</p>
+                <button class="film-button" data-open-film="3">Film entdecken ↗</button>
+            </div>
+        </article>
+
+        <article class="film-card" data-film="4">
+            <div class="film-number">FILM 04</div>
+            <div class="film-art art-four"><span>🏆</span><small>DAS TURNIER</small></div>
+            <div class="film-info">
+                <h3>Der Feuerkelch</h3>
+                <p>Das Trimagische Turnier bringt drei Zauberschulen zusammen.</p>
+                <button class="film-button" data-open-film="4">Film entdecken ↗</button>
+            </div>
+        </article>
+
+        <article class="film-card" data-film="5">
+            <div class="film-number">FILM 05</div>
+            <div class="film-art art-five"><span>🔮</span><small>PROPHEZEIUNG</small></div>
+            <div class="film-info">
+                <h3>Der Orden des Phönix</h3>
+                <p>Eine geheime Gruppe bereitet sich auf dunkle Zeiten vor.</p>
+                <button class="film-button" data-open-film="5">Film entdecken ↗</button>
+            </div>
+        </article>
+
+        <article class="film-card" data-film="6">
+            <div class="film-number">FILM 06</div>
+            <div class="film-art art-six"><span>🧪</span><small>ALTE GEHEIMNISSE</small></div>
+            <div class="film-info">
+                <h3>Der Halbblutprinz</h3>
+                <p>Ein geheimnisvolles Zaubertrankbuch und die Vergangenheit Voldemorts.</p>
+                <button class="film-button" data-open-film="6">Film entdecken ↗</button>
+            </div>
+        </article>
+
+        <article class="film-card" data-film="7">
+            <div class="film-number">FILM 07</div>
+            <div class="film-art art-seven"><span>🏕️</span><small>AUF DER SUCHE</small></div>
+            <div class="film-info">
+                <h3>Die Heiligtümer des Todes – Teil 1</h3>
+                <p>Harry, Ron und Hermine verlassen Hogwarts und suchen nach Antworten.</p>
+                <button class="film-button" data-open-film="7">Film entdecken ↗</button>
+            </div>
+        </article>
+
+        <article class="film-card" data-film="8">
+            <div class="film-number">FILM 08</div>
+            <div class="film-art art-eight"><span>🏰</span><small>DAS FINALE</small></div>
+            <div class="film-info">
+                <h3>Die Heiligtümer des Todes – Teil 2</h3>
+                <p>Die letzte grosse Auseinandersetzung um die Zukunft der Zauberwelt.</p>
+                <button class="film-button" data-open-film="8">Film entdecken ↗</button>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+<!-- FILM MODAL -->
+<div class="modal" id="film-modal">
+    <div class="modal-card">
+        <button class="modal-close" id="film-close">✕</button>
+        <p class="eyebrow" id="film-modal-number">FILM</p>
+        <div class="modal-icon" id="film-modal-icon">⚡</div>
+        <h2 id="film-modal-title">Filmtitel</h2>
+        <p class="modal-story" id="film-modal-story"></p>
+        <div class="modal-details">
+            <div><span>MAGISCHER ORT</span><strong id="film-modal-place"></strong></div>
+            <div><span>BESONDERHEIT</span><strong id="film-modal-special"></strong></div>
+        </div>
+        <div class="modal-fact">
+            <strong>✦ WUSSTEST DU SCHON?</strong>
+            <p id="film-modal-fact"></p>
+        </div>
+        <button class="gold-button modal-ok" id="film-ok">Zurück zur Filmwelt</button>
+    </div>
+</div>
+
+<!-- HOGWARTS -->
+<section class="hogwarts-section section" id="hogwarts">
+    <div class="section-heading">
+        <p class="eyebrow">DEIN ZUHAUSE FÜR ZAUBEREI</p>
+        <h2>Willkommen in Hogwarts</h2>
+        <p>Eine Schule, die viel mehr ist als Klassenzimmer und Hausaufgaben.</p>
+    </div>
+
+    <div class="hogwarts-feature">
+        <div class="castle-illustration">
+            <div class="castle-moon">🌙</div>
+            <div class="castle-emoji">🏰</div>
+            <div class="castle-caption">HOGWARTS</div>
+        </div>
+        <div class="hogwarts-description">
+            <p class="eyebrow">DAS SCHLOSS</p>
+            <h3>Ein Ort voller Geheimnisse</h3>
+            <p>
+                Hogwarts liegt in Schottland und ist die berühmte Schule für Hexerei
+                und Zauberei. Das riesige Schloss besitzt Türme, Treppen,
+                Gemeinschaftsräume, Klassenzimmer und viele verborgene Winkel.
+            </p>
+            <p>
+                Die Schüler lernen dort unter anderem Zaubertränke, Verwandlung,
+                Kräuterkunde, Zauberkunst und Verteidigung gegen die dunklen Künste.
+            </p>
+            <div class="hogwarts-tags">
+                <span>🕯️ Grosse Halle</span>
+                <span>📚 Bibliothek</span>
+                <span>🪜 Treppen</span>
+                <span>🌿 Gewächshäuser</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="places-grid">
+        <div class="place-card"><span>🍽️</span><h3>Grosse Halle</h3><p>Hier essen die Schüler gemeinsam. Die Decke sieht aus wie der echte Nachthimmel.</p></div>
+        <div class="place-card"><span>📚</span><h3>Bibliothek</h3><p>Ein riesiger Ort voller Bücher, Wissen und geheimnisvoller Abteilungen.</p></div>
+        <div class="place-card"><span>🌱</span><h3>Gewächshäuser</h3><p>Hier wachsen magische Pflanzen, die im Unterricht untersucht werden.</p></div>
+        <div class="place-card"><span>🧙</span><h3>Gemeinschaftsräume</h3><p>Jedes der vier Häuser besitzt einen eigenen Raum für seine Schüler.</p></div>
+    </div>
+</section>
+
+<!-- HÄUSER -->
+<section class="houses-section section" id="haeuser">
+    <div class="section-heading">
+        <p class="eyebrow">WO GEHÖRST DU HIN?</p>
+        <h2>Die vier Häuser</h2>
+        <p>Vier Häuser, vier Farben und ganz unterschiedliche Eigenschaften.</p>
+    </div>
+
+    <div class="houses-grid">
+        <article class="house-card gryffindor">
+            <div class="house-animal">🦁</div>
+            <p class="house-label">MUT · TAPFERKEIT</p>
+            <h3>Gryffindor</h3>
+            <p>Gryffindors sind für ihren Mut, ihre Entschlossenheit und ihre Tapferkeit bekannt.</p>
+            <div class="house-colors"><span></span><span></span></div>
+        </article>
+
+        <article class="house-card slytherin">
+            <div class="house-animal">🐍</div>
+            <p class="house-label">EHRGEIZ · SCHLAUHEIT</p>
+            <h3>Slytherin</h3>
+            <p>Slytherins gelten als ehrgeizig, einfallsreich und zielstrebig.</p>
+            <div class="house-colors"><span></span><span></span></div>
+        </article>
+
+        <article class="house-card ravenclaw">
+            <div class="house-animal">🦅</div>
+            <p class="house-label">WISSEN · WEISHEIT</p>
+            <h3>Ravenclaw</h3>
+            <p>Ravenclaws lieben Wissen, Kreativität und kluge Ideen.</p>
+            <div class="house-colors"><span></span><span></span></div>
+        </article>
+
+        <article class="house-card hufflepuff">
+            <div class="house-animal">🦡</div>
+            <p class="house-label">TREUE · FAIRNESS</p>
+            <h3>Hufflepuff</h3>
+            <p>Hufflepuffs sind für ihre Loyalität, Geduld und Fairness bekannt.</p>
+            <div class="house-colors"><span></span><span></span></div>
+        </article>
+    </div>
+</section>
+
+<!-- MAGISCHE DINGE -->
+<section class="magic-section section" id="magie">
+    <div class="section-heading">
+        <p class="eyebrow">DIE KLEINEN WUNDER</p>
+        <h2>Magische Gegenstände</h2>
+        <p>In der Zauberwelt kann selbst ein ganz gewöhnlicher Gegenstand erstaunlich sein.</p>
+    </div>
+
+    <div class="magic-grid">
+        <button class="magic-object" data-magic="wand"><span>🪄</span><strong>Zauberstab</strong><small>Ein Werkzeug für Zauberei</small></button>
+        <button class="magic-object" data-magic="map"><span>🗺️</span><strong>Karte des Rumtreibers</strong><small>Zeigt Personen im Schloss</small></button>
+        <button class="magic-object" data-magic="cloak"><span>🧥</span><strong>Unsichtbarkeitsumhang</strong><small>Kann seinen Träger verbergen</small></button>
+        <button class="magic-object" data-magic="snitch"><span>🏆</span><strong>Goldener Schnatz</strong><small>Ein wichtiger Quidditch-Ball</small></button>
+        <button class="magic-object" data-magic="potion"><span>🧪</span><strong>Zaubertrank</strong><small>Magische Flüssigkeiten</small></button>
+        <button class="magic-object" data-magic="owl"><span>🦉</span><strong>Brief-Eule</strong><small>Überbringt Nachrichten</small></button>
+    </div>
+    <p class="magic-feedback" id="magic-feedback">✨ Wähle einen Gegenstand, um sein Geheimnis zu entdecken.</p>
+</section>
+
+<!-- KREATUREN -->
+<section class="creatures-section section">
+    <div class="section-heading">
+        <p class="eyebrow">NICHT ALLE LEBEWESEN SIND GEWÖHNLICH</p>
+        <h2>Magische Kreaturen</h2>
+        <p>Die Zauberwelt ist voller faszinierender Wesen.</p>
+    </div>
+
+    <div class="creature-grid">
+        <div class="creature-card"><span>🦄</span><h3>Einhorn</h3><p>Ein seltenes, wunderschönes Wesen mit einem Horn auf der Stirn.</p></div>
+        <div class="creature-card"><span>🐉</span><h3>Drache</h3><p>Ein mächtiges Wesen, das Feuer speien kann. Es gibt verschiedene Drachenarten.</p></div>
+        <div class="creature-card"><span>🦅</span><h3>Hippogreif</h3><p>Ein magisches Wesen mit dem Körper eines Pferdes und dem Kopf und den Flügeln eines Adlers.</p></div>
+        <div class="creature-card"><span>🐦‍🔥</span><h3>Phönix</h3><p>Ein besonderer Vogel, der aus seiner eigenen Asche neu entstehen kann.</p></div>
+    </div>
+</section>
+
+<!-- ZAUBERQUIZ -->
+<section class="quiz-section section" id="quiz">
+    <div class="quiz-card">
+        <div class="quiz-decoration">✦ 🪄 ✦</div>
+        <p class="eyebrow">DIE SPRECHENDE HUT-CHALLENGE</p>
+        <h2>In welches Haus gehörst du?</h2>
+        <p>Beantworte vier kleine Fragen und finde heraus, welches Hogwarts-Haus am besten zu deinen Antworten passt!</p>
+
+        <div id="quiz-area">
+            <div class="quiz-progress"><div id="quiz-progress-bar"></div></div>
+            <p class="quiz-counter" id="quiz-counter">FRAGE 1 VON 4</p>
+            <h3 id="quiz-question">Was ist dir besonders wichtig?</h3>
+            <div class="quiz-options" id="quiz-options"></div>
+        </div>
+
+        <div id="quiz-result" class="quiz-result hidden">
+            <div id="quiz-result-icon">🦁</div>
+            <p>DER SPRECHENDE HUT HAT ENTSCHIEDEN!</p>
+            <h3 id="quiz-result-house"></h3>
+            <p id="quiz-result-text"></p>
+            <button class="gold-button" id="quiz-restart">Noch einmal spielen ↻</button>
+        </div>
+    </div>
+</section>
+
+<!-- ABSCHLUSS -->
+<section class="ending-section">
+    <div class="ending-stars">✦　✧　✦　✧　✦</div>
+    <div class="ending-icon">🦉</div>
+    <h2>Die Magie endet nie.</h2>
+    <p>Manchmal braucht es nur ein wenig Fantasie, um eine ganze Welt zu entdecken.</p>
+    <a href="#home" class="gold-button">Zurück zum Anfang ↑</a>
+</section>
+
+<footer>
+    <div class="footer-logo">⚡ THE WIZARDING WORLD ⚡</div>
+    <p>Eine Fan-Website über die magische Welt von Harry Potter.</p>
+    <p class="footer-secret" id="footer-secret">Psst ... hier ist noch nicht alles entdeckt.</p>
+</footer>
+
+</main>
+
+<div class="floating-message" id="floating-message"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
